@@ -13,7 +13,7 @@ function App () {
       <Button colorScheme='green'>Button</Button> */}
       <Routes>
         <Route path="/home" element={<Home />} />
-        {/* <Route path="/" element={<Table />} /> */}
+        {/* <Route path="/" element={<Table />} />git  */}
 
       </Routes>
 

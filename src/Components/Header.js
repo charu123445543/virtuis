@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 import { BiMenuAltLeft } from 'react-icons/bi';
 import Table from './Table';
 import Home from './Home';
-
+import img from "./logo.png"
 // import ReactDOM from 'react-dom/client';
 
 const Header = () => {
@@ -133,7 +133,9 @@ const Header = () => {
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerCloseButton />
-                    <DrawerHeader>My Virtuos</DrawerHeader>
+                    <DrawerHeader>
+                        <img src={img} alt="" />
+                    </DrawerHeader>
                     <DrawerBody>
                         {
                             cat.map( ( elm, key ) => {
@@ -175,6 +177,7 @@ const Header = () => {
                 </DrawerContent>
 
             </Drawer>
+
 
 
 
@@ -247,6 +250,9 @@ const Header = () => {
 
                 </tbody>
             </table>
+
+
+
 
 
         </>
