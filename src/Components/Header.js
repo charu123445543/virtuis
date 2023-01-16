@@ -15,8 +15,8 @@ import {
 } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import { BiMenuAltLeft } from 'react-icons/bi';
-import Table from './Table';
-import Home from './Home';
+// import Table from './Table';
+// import Home from './Home';
 import img from "./logo.png"
 // import ReactDOM from 'react-dom/client';
 
@@ -98,14 +98,14 @@ const Header = () => {
     }, [] );
 
 
-    const callcomp = ( type ) => {
-        console.log( "insde callcomp" );
-        navigate( '/table' )
-        return (
-            <Table />
-        );
+    // const callcomp = ( type ) => {
+    //     console.log( "insde callcomp" );
+    //     navigate( '/table' )
+    //     return (
+    //         // <Table />
+    //     );
 
-    }
+    // }
     // useEffect( () => {
     //     callcomp();
 
